@@ -55,10 +55,9 @@ ul {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  border: 1px solid #ececec;
-  /* padding-left: 215px; */
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -146,7 +145,6 @@ ul {
 .filters {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* text-align: center; */
 }
 
 .filters-button-container {
@@ -174,7 +172,9 @@ ul {
   color: var(--project-black);
   background: #f5f4fa;
   border-radius: 4px;
+  padding: 6px 22px;
 }
+
 .filters-button:hover,
 .filters-button:focus {
   color: white;
@@ -187,7 +187,7 @@ ul {
   display: flex;
   margin-left: -30px;
   flex-wrap: wrap;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .products-item {
@@ -198,15 +198,20 @@ ul {
   margin-bottom: 30px;
 }
 
+.product-text-container {
+  padding-left: 24px;
+  padding: 20px;
+}
+
 .product-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--project-black);
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 4px;
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .product {
@@ -214,8 +219,8 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--header-grey);
-  padding-left: 24px;
-  padding-bottom: 20px;
+  /* padding-left: 24px; */
+  /* padding-bottom: 20px; */
 }
 
 /* Футер/FOOTER--------------------------------------------- */
@@ -223,10 +228,12 @@ ul {
 .footer {
   background-color: #2f303a;
   height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 .logo-part-3 {
